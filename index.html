@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Hello, I'm <span class="highlight">Manu</span></h2>
+                <h3>Web Developer & Designer</h3>
+                <p>Creating beautiful, functional websites that leave a lasting impression.</p>
+                <div class="cta-buttons">
+                    <a href="about.html" class="btn primary-btn">About Me</a>
+                    <a href="contacts.html" class="btn secondary-btn">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Art.jpeg" alt="Profile Image" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Some of my recent work</p>
+            </div>
+            
+            <div class="project-slider">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="/api/placeholder/350/250" alt="Project 1" class="project-img">
+                    <div class="project-info">
+                        <h3>Project Name 1</h3>
+                        <p>Web Development</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="/api/placeholder/350/250" alt="Project 2" class="project-img">
+                    <div class="project-info">
+                        <h3>Project Name 2</h3>
+                        <p>UI/UX Design</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="/api/placeholder/350/250" alt="Project 3" class="project-img">
+                    <div class="project-info">
+                        <h3>Project Name 3</h3>
+                        <p>Mobile App Development</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <button id="prev-btn" class="slider-btn"><i class="fas fa-chevron-left"></i></button>
+                <button id="next-btn" class="slider-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <p>Technologies I work with</p>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <h3>MongoDB</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>My Portfolio</h3>
+                    <p>Creating beautiful digital experiences</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
