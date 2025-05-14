@@ -1,0 +1,184 @@
+Portfolio Website Documentation
+Overview
+
+This documentation provides a detailed guide to your portfolio website, explaining its structure, components, and how to customize it to meet your specific needs.
+Table of Contents
+
+    File Structure
+    Design Elements
+    Page Components
+    Customization Guide
+    Technical Implementation
+    Maintenance Tips
+
+File Structure
+
+The portfolio website consists of the following files:
+
+    index.html - The main homepage
+    about.html - About page (linked but not included in the provided code)
+    contacts.html - Contact page (linked but not included in the provided code)
+    style.css - Main stylesheet for the website
+    script.js - JavaScript file for interactive elements
+    Images and other assets:
+        Art.jpeg - Profile image displayed on the homepage
+
+Design Elements
+Color Scheme
+
+The website appears to use a clean, professional color scheme. While specific colors aren't defined in the HTML, the CSS likely includes:
+
+    Primary colors for buttons and highlights
+    Secondary colors for backgrounds and accents
+    Text colors for readability and hierarchy
+
+Typography
+
+The website uses a font hierarchy that likely includes:
+
+    Heading fonts for titles and section headers
+    Body text fonts for paragraphs and descriptions
+    The specific font families would be defined in the style.css file
+
+Responsive Design
+
+The website is designed to be responsive with:
+
+    A mobile menu toggle (burger menu)
+    Flexible containers with the .container class
+    Media queries in the CSS (not shown but implied)
+
+Page Components
+Header
+
+The header contains:
+
+    Logo/brand name ("Portfolio")
+    Navigation menu with links to Home, About, and Contact pages
+    Mobile-friendly burger menu for smaller screens
+
+html
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>Portfolio</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+Hero Section
+
+The hero section introduces you and includes:
+
+    Your name with highlighted styling
+    Professional title ("Web Developer & Designer")
+    Brief tagline about your work
+    Call-to-action buttons
+    Profile image
+
+html
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h2>Hello, I'm <span class="highlight">Manu</span></h2>
+            <h3>Web Developer & Designer</h3>
+            <p>Creating beautiful, functional websites that leave a lasting impression.</p>
+            <div class="cta-buttons">
+                <a href="about.html" class="btn primary-btn">About Me</a>
+                <a href="contacts.html" class="btn secondary-btn">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="Art.jpeg" alt="Profile Image" class="profile-img">
+        </div>
+    </div>
+</section>
+
+Projects Section
+
+The projects section showcases your work with:
+
+    Section header and description
+    Project cards in a slider format
+    Navigation buttons for the slider
+    Each project card contains an image, title, category, and link
+
+html
+
+<section class="projects" id="projects">
+    <div class="container">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p>Some of my recent work</p>
+        </div>
+        
+        <div class="project-slider">
+            <!-- Project cards -->
+        </div>
+        
+        <div class="slider-controls">
+            <button id="prev-btn" class="slider-btn"><i class="fas fa-chevron-left"></i></button>
+            <button id="next-btn" class="slider-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+</section>
+
+Skills Section
+
+The skills section highlights your technical expertise with:
+
+    Section header and description
+    Icon-based skill items using Font Awesome
+    Six skills displayed: HTML5, CSS3, JavaScript, React, Node.js, and MongoDB
+
+html
+
+<section class="skills">
+    <div class="container">
+        <div class="section-header">
+            <h2>My Skills</h2>
+            <p>Technologies I work with</p>
+        </div>
+        
+        <div class="skills-container">
+            <!-- Skill items with icons -->
+        </div>
+    </div>
+</section>
+
+Footer
+
+The footer contains:
+
+    Logo/brand section with tagline
+    Quick links to main pages
+    Social media links with icons
+    Copyright information
+
+html
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <!-- Footer sections -->
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
